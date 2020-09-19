@@ -12,5 +12,6 @@ THE GANPATH INSURANCE POLICY CONSULTATION, aims to generate right policy for eve
 *	Accident evaluation
 *	Policy selection
 *	 Monthly payment
+
 The Whole workflow is developed in C and expected to Generated Best Medical policy based on Policy Credit score! 
 
