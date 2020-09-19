@@ -1,6 +1,6 @@
-|BUILD|
-|:--:|
-|![C/C++ CI](https://github.com/99002686/InsurancePolicyGeneraion/workflows/C/C++%20CI/badge.svg)|
+|BUILD|CPPCHECK|
+|:--:|:--:|
+|![C/C++ CI](https://github.com/99002686/InsurancePolicyGeneraion/workflows/C/C++%20CI/badge.svg)|![cppcheck-action](https://github.com/99002686/InsurancePolicyGeneraion/workflows/cppcheck-action/badge.svg)|
 
 # Ganpath Insurance Policy Consultation Since 1985, 
 THE GANPATH INSURANCE POLICY CONSULTATION, aims to generate right policy for every customer, where several parameters were measures before selection of exact policy required. The policy generation will gather Personnel data, here policy credit score is evaluated by several parameters
