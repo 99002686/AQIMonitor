@@ -1,3 +1,6 @@
+|BUILD
+![C/C++ CI](https://github.com/99002686/InsurancePolicyGeneraion/workflows/C/C++%20CI/badge.svg)|
+
 # Ganpath Insurance Policy Consultation Since 1985, 
 THE GANPATH INSURANCE POLICY CONSULTATION, aims to generate right policy for every customer, where several parameters were measures before selection of exact policy required. The policy generation will gather Personnel data, here policy credit score is evaluated by several parameters
 * BMI evaluation
@@ -14,4 +17,21 @@ THE GANPATH INSURANCE POLICY CONSULTATION, aims to generate right policy for eve
 *	 Monthly payment
 
 The Whole workflow is developed in C and expected to Generated Best Medical policy based on Policy Credit score! 
+
+## Integrated Tools to GitHub
+
+*  [Codacy](https://www.codacy.com/)
+
+## GitHub Actions
+
+Interact with your's and contributor's files with the following 
+
+* Build using Make for CI
+* Static code analysis using cppcheck
+
+## To have this file:
+
+* step 1: git clone [https://github.com/99002686/InsurancePolicyGeneraion] 
+* step 2:  make
+* step 3: make run
 
