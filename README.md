@@ -1,4 +1,5 @@
-|BUILD
+|BUILD|
+|:--:|
 ![C/C++ CI](https://github.com/99002686/InsurancePolicyGeneraion/workflows/C/C++%20CI/badge.svg)|
 
 # Ganpath Insurance Policy Consultation Since 1985, 
