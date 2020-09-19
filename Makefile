@@ -1,5 +1,16 @@
 SOURCE = source/main.c \
-source/insurance.c
+source/insurance.c \
+source/alcohol.c \
+source/diet.c \
+source/exercise.c \
+source/smoke.c \
+source/accident.c \
+source/drugs.c \
+source/healthIssues.c \
+source/insomniac.c \
+source/monthPayment.c \
+source/policy.c \
+source/stress.c
 
 INCLUDE = -Iinclude \
 
