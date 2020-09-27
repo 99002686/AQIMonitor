@@ -15,6 +15,6 @@ jobs:
     - uses: actions/checkout@v2
     
     - name: make Policy
-      run: make 
+      run: make 3_Implementation
       
 
