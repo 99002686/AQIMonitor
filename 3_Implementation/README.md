@@ -19,4 +19,5 @@ Test plan can be written for each modules, withthe specific parameters,
 * T03 = test_exercise, takes a,b,c and returns "YOGA", "GYM", "JOGGING" as user data.
 * T04 = test_diet, takes a,b,c and returns "Healthy", "Average", "Fast food: as user data.
 * T05 = test_month takes, salary and age of the user to determine the policy plan.
+
 Other function will have their own parameters to evaluate and manipulate the policy.
