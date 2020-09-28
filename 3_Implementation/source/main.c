@@ -3,25 +3,29 @@
 #include <stdlib.h>
 #include "insuranceVariables.h"
 #include "insurance.h"
+#define default_char 'z'
 
+int buffer_rx;
+char s[20];
 int main()
 {
     int number, id = 1000, iter=0;
+    int t_accident, t_alcohol, rt_accident, rt_alcohol;
     char check, buffer;
     struct points *personson;
     printf("############### WELCOME TO GANPATH INSURANCE CONSULTATION !!! ####################");
     printf(" \n MOTTO : POLICIES AT YOUR DOOR STEPS SINCE 19 \n");
     printf("\n VARIOUS POLICIES : \n");
-    printf("\n 1.POLICY NAME : 'LIFE E-SHIELD' ");
-    printf("\n a.Entry age : 18 to 65 years ");
+    printf("\n 1.POLICY NAME : 'PAAKA LIFE E-SHIELD' ");
+    printf("\n a.Entry age : 25 to 50 years ");
     printf("\n b.Policy term : 5 years to 30 years ");
     printf("\n c.Sum assured : Min - 20L  Max - no limit \n");
     printf("\n 2.POLICY NAME : 'BHARAMA PLAN'");
-    printf("\n a.Entry age : 12 to 45 years ");
+    printf("\n a.Entry age : 12 to 30 years ");
     printf("\n b.Policy term : 12 to 20 years ");
     printf("\n c.Sum assured : Min - 15L  Max - no limit\n");
     printf("\n 3.POLICY NAME : 'LIFE ELITE SECURE'");
-    printf("\n a.Entry age : 18 to 75 years");
+    printf("\n a.Entry age : 18 to 60 years");
     printf("\n b.Policy term : 25 to 30 years ");
     printf("\n c.Sum assured : 25L Max - no limit \n");
     printf("\n 4.POLICY NAME : 'AVATAR I-LIFE'");
@@ -29,7 +33,7 @@ int main()
     printf("\n b.Policy term : 10-35 years");
     printf("\n c.Sum assured : Min-15L Max-50L\n");
     printf("\n 5.POLICY NAME : 'SUNRISE'");
-    printf("\n a.Entry age : 18 to 65 years");
+    printf("\n a.Entry age : 20 to 45 years");
     printf("\n b.Policy term : 5-40 years");
     printf("\n c.Sum assured : Min-30L Max-NO LIMIT\n");
 
@@ -121,16 +125,16 @@ int main()
         }
         
         smoke(&person[iter]);
-        alcohol(&person[iter]);
+        buffer_rx = alcohol(&person[iter], default_char, 1);
         drugs(&person[iter]);
-        exercise(&person[iter]);
-        diet(&person[iter]);
+        buffer_rx = exercise(&person[iter], default_char, 1);
+        buffer_rx = diet(&person[iter], default_char, 1);
         stress(&person[iter]);
         insomniac(&person[iter]);
         healthIssue(&person[iter]);
-        accident(&person[iter]);
-        policy(&person[iter]);
-        month(&person[iter]);
+        buffer_rx = accident(&person[iter], default_char, 1);
+        buffer_rx = policy(&person[iter], 0, 1);
+        buffer_rx = month(&person[iter], "arogya", 0, 1);
 
         printf("\n\n\t\t\t ! !PLEASE CHECK YOUR DETAILS ! !\n");
         printf("\n 1.ID = %d.\n 2.NAME = %s.\n 3. GENDER(M/F) = %s.\n 4.MOBILE NUMBER = %s.\n 5.EMAIL-ID = %s.\n 6.DOB = %d/%d/%d.",person[iter].applicant.id, person[iter].applicant.name, person[iter].gender,person[iter].applicant.phoneNumber, person[iter].applicant.email,person[iter].applicant.cdate,person[iter].applicant.cmonth,person[iter].applicant.cyear);

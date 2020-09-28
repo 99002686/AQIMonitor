@@ -3,15 +3,14 @@
 
 void smoke (struct points* sm);
 void age(struct points* ag);
-void alcohol(struct points* al);
+int alcohol(struct points* al, char, int);
 void drugs(struct points* dr);
-void exercise(struct points* ex);
-void diet(struct points* di);
+void* exercise(struct points* ex, char, int);
+void* diet(struct points* di, char, int);
 void stress(struct points* st);
 void insomniac(struct points* in);
 void healthIssue(struct points* he);
-void accident(struct points* ac);
-void policy(struct points* po);
-void month (struct points* mo);
-
+int accident(struct points* ac, char, int);
+void* policy(struct points* po, int, int);
+int month (struct points* mo, char*, int, int);
 #endif /*#ifndef __ISURANCE_H__*/
