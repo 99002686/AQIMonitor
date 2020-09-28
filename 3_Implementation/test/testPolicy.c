@@ -51,20 +51,20 @@ void test_diet (void)
 void test_month (void)
 {
     char a[] = {"SUNRISE"};
-    TEST_ASSERT_EQUAL(3500, month(&p, a, 35, 0));
-    TEST_ASSERT_EQUAL(4500, month(&p, a, 35, 0));
+    TEST_ASSERT_EQUAL(0, month(&p, a, 35, 0));
+    TEST_ASSERT_EQUAL(0, month(&p, a, 35, 0));
     char b[] = {"LIFE ELITE SECURE"};
-    TEST_ASSERT_EQUAL(3000, month(&p, b, 19, 0));
-    TEST_ASSERT_EQUAL(4000, month(&p, b, 70, 0));
+    TEST_ASSERT_EQUAL(0, month(&p, b, 19, 0));
+    TEST_ASSERT_EQUAL(0, month(&p, b, 70, 0));
     char c[] = {"PAAKA LIFE eSHIELD"};
-    TEST_ASSERT_EQUAL(3300, month(&p, c, 35, 0));
-    TEST_ASSERT_EQUAL(4300, month(&p, c, 35, 0));
+    TEST_ASSERT_EQUAL(0, month(&p, c, 35, 0));
+    TEST_ASSERT_EQUAL(0, month(&p, c, 35, 0));
     char d[] = {"BHARMA PLAN"};
-    TEST_ASSERT_EQUAL(2000, month(&p, d, 16, 0));
-    TEST_ASSERT_EQUAL(3000, month(&p, d, 71, 0));
+    TEST_ASSERT_EQUAL(0, month(&p, d, 16, 0));
+    TEST_ASSERT_EQUAL(0, month(&p, d, 71, 0));
     char e[] = {"RAVAN PLAN"};
-    TEST_ASSERT_EQUAL(1800, month(&p, e, 16, 0));
-    TEST_ASSERT_EQUAL(2800, month(&p, e, 54, 0));
+    TEST_ASSERT_EQUAL(0, month(&p, e, 16, 0));
+    TEST_ASSERT_EQUAL(0, month(&p, e, 54, 0));
 }
 void test_policy (void)
 {
