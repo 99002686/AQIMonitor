@@ -2,6 +2,7 @@
 #include "insurance.h"
 #include "insuranceVariables.h"
 #include <stdlib.h>
+#include <string.h>
 # define number 1
 //Required by the test unity framework
 void setUp() {}
