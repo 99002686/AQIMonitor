@@ -1,6 +1,6 @@
-|BUILD|CPPCHECK|Codacy|
-|:--:|:--:|:--:|
-|![C/C++ CI](https://github.com/99002686/InsurancePolicyGeneraion/workflows/C/C++%20CI/badge.svg)|![cppcheck-action](https://github.com/99002686/InsurancePolicyGeneraion/workflows/cppcheck-action/badge.svg)|[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d6b6839baae2405886328b3d02a15f4f)](https://app.codacy.com/manual/99002686/InsurancePolicyGeneraion?utm_source=github.com&utm_medium=referral&utm_content=99002686/InsurancePolicyGeneraion&utm_campaign=Badge_Grade_Dashboard)|
+|BUILD|CPPCHECK|Codacy|UNIT_TEST|
+|:--:|:--:|:--:|:--:|
+|![C/C++ CI](https://github.com/99002686/InsurancePolicyGeneraion/workflows/C/C++%20CI/badge.svg)|![cppcheck-action](https://github.com/99002686/InsurancePolicyGeneraion/workflows/cppcheck-action/badge.svg)|[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d6b6839baae2405886328b3d02a15f4f)](https://app.codacy.com/manual/99002686/InsurancePolicyGeneraion?utm_source=github.com&utm_medium=referral&utm_content=99002686/InsurancePolicyGeneraion&utm_campaign=Badge_Grade_Dashboard)|![Unit testing](https://github.com/99002686/InsurancePolicyGeneraion/workflows/Unit%20testing/badge.svg)|
 
 # Ganpath Insurance Policy Consultation Since 1985, 
 
