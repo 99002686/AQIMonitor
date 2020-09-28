@@ -72,7 +72,7 @@ void test_policy (void)
     char a[] = {"RAVAN PLAN"};
     TEST_ASSERT_EQUAL(0, strcmp(policy(&p, 1, 0), a));
     char b[] = {"LIFE ELITE SECURE"};
-    TEST_ASSERT_EQUAL(6, strcmp(policy(&p, 3, 0), b));
+    TEST_ASSERT_EQUAL(1, strcmp(policy(&p, 3, 0), b));
     char c[] = {"PAAKA LIFE eSHIELD"};
     TEST_ASSERT_EQUAL(1, strcmp(policy(&p, 4, 0), c));
     char d[] = {"BHARMA PLAN"};
